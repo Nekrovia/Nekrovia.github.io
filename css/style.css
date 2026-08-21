@@ -108,7 +108,7 @@ body::before {
   flex: none;
 }
 
-.brand span {
+.brand-text span {
   color: var(--accent-light);
 }
 
