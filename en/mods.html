@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mods | Nekrovia</title>
+<meta name="description" content="Custom Nekrovia mods for DayZ — pick a mod from the list to see how it works. Osada is our flagship faction-war mode." />
+<link rel="icon" href="../images/logo-200.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand"><img src="../images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR <span>OVIA</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="history.html">History</a>
+      <a href="mods.html" class="active">Mods</a>
+      <a href="rules.html">Rules</a>
+      <a href="join.html">How to join</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang-switch"><a href="../modyfikacje.html">PL</a><a href="mods.html" class="active">EN</a></div>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Discord</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Custom mods</span>
+    <h1>Nekrovia Mods</h1>
+    <p>We build our server's entire gameplay system ourselves, from scratch. Pick a mod from the list to see how it works — the list will keep growing as we build more.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="mod-browser">
+
+      <div class="mod-list">
+        <div class="mod-list-label">Flagship mode</div>
+        <button class="mod-list-item active" data-mod="osada"><span class="ico">🏘️</span> Osada</button>
+
+        <div class="mod-list-label">Other mods</div>
+        <button class="mod-list-item" data-mod="blackmarket"><span class="ico">🕴️</span> Black Market</button>
+        <button class="mod-list-item" data-mod="vehicles"><span class="ico">🚗</span> Vehicle Physics</button>
+
+        <div class="mod-list-label">Coming soon</div>
+        <button class="mod-list-item" data-mod="wip"><span class="ico">➕</span> In progress</button>
+      </div>
+
+      <div class="mod-detail" id="modDetail">
+
+        <div class="mod-panel active" id="mod-osada">
+          <div class="badge-row"><span>Flagship mode</span><span>Alpha vs Beta</span><span>PVP</span></div>
+          <h2>Osada</h2>
+          <div class="video-wrap" data-video-id="J7ThH8IOcpc" data-video-title="Nekrovia - Osada gameplay">
+            <img class="video-thumb" src="https://i.ytimg.com/vi/J7ThH8IOcpc/hqdefault.jpg" alt="Nekrovia - Osada gameplay" loading="lazy" />
+            <button class="video-play" aria-label="Play video">&#9654;</button>
+          </div>
+          <p>Osada is our custom, complete gameplay mode. The server splits into two rival factions — Alpha and Beta. Each one builds up its own settlement, earns points through events, and spends them at point-based NPC stations.</p>
+          <p>Once a settlement reaches a high enough build level, its faction unlocks the ability to attack the enemy. Capturing the target ends the Season and declares a winner — the community that built itself up stronger wins.</p>
+
+          <div class="mod-features-label">What Osada includes</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">🧩</span><div><b>Factions</b><span>Players are split into Alpha and Beta, each with a starting base and a faction armband.</span></div></div>
+            <div class="mod-feature"><span class="ico">🏗️</span><div><b>Building</b><span>Resources raise the settlement's level and unlock new buildings.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚔️</span><div><b>Season</b><span>A built-up settlement unlocks an attack on the enemy and a chance to win the season.</span></div></div>
+            <div class="mod-feature"><span class="ico">🚚</span><div><b>Events</b><span>Convoys, loot crates, and capture zones earn points for the settlement.</span></div></div>
+            <div class="mod-feature"><span class="ico">📦</span><div><b>Warehouse</b><span>A shared faction stash that grows with the settlement's level.</span></div></div>
+            <div class="mod-feature"><span class="ico">💬</span><div><b>Faction chat</b><span>A separate communication channel for your own faction's members.</span></div></div>
+            <div class="mod-feature"><span class="ico">🗺️</span><div><b>Map</b><span>Player position and event markers shown on the in-game map.</span></div></div>
+            <div class="mod-feature"><span class="ico">👤</span><div><b>Profile</b><span>Player stats and an on-screen kill feed.</span></div></div>
+            <div class="mod-feature"><span class="ico">📊</span><div><b>Event stats</b><span>A scoreboard and leaderboard for the Alpha vs Beta rivalry.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔧</span><div><b>Mechanic</b><span>A point-based workshop — scrap and parts for repairs and vehicles.</span></div></div>
+            <div class="mod-feature"><span class="ico">💊</span><div><b>Medic</b><span>Instant healing in exchange for points earned from medical supplies.</span></div></div>
+            <div class="mod-feature"><span class="ico">🍞</span><div><b>Pantry</b><span>Food and drink for points, from a basic meal to a full feast.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚒️</span><div><b>Armory</b><span>Craft weapons and ammo from resources and points.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛠️</span><div><b>AdminTools</b><span>An admin panel for managing bases, events, and the season.</span></div></div>
+          </div>
+
+          <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Join and play Osada</a>
+        </div>
+
+        <div class="mod-panel" id="mod-blackmarket">
+          <div class="badge-row"><span>Trading</span><span>Roaming NPC</span></div>
+          <h2>Black Market</h2>
+          <div class="mod-visual">🕴️</div>
+          <p>A mysterious dealer who doesn't stay in one place — he appears at rotating, unmarked locations on the map and disappears after a while, only to show up somewhere else. You never know in advance where you'll find him today.</p>
+          <p>He buys rare and illegal items for casino chips in several denominations, with a per-player sell limit protecting the server economy from abuse. The trading menu works in several languages, including Polish and English.</p>
+        </div>
+
+        <div class="mod-panel" id="mod-vehicles">
+          <div class="badge-row"><span>Vehicles</span><span>Realism</span><span>5 cars</span></div>
+          <h2>Vehicle Physics</h2>
+          <div class="mod-visual">🚗</div>
+          <p>We rebuilt vehicle handling and mechanics from the ground up — separately for each of the 5 models. A car's technical condition now actually affects how it drives and behaves on the road, not just what you see in its health bar.</p>
+          <p>A worn-out engine loses power, a bad spark plug can strand you in the middle of nowhere, and a loose wheel will fall off if you push it too hard. Off-roaders in the terrain actually pull with every wheel now instead of getting stuck with one hanging in the air. The good news: almost everything can now be repaired, all the way back to factory-new condition.</p>
+
+          <div class="mod-features-label">How to play with the new mechanics — scenario by scenario</div>
+          <div class="steps">
+            <div class="step">
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <h3>🪢 Always buckle up with <code>C</code></h3>
+                <p>A buckled seatbelt heavily reduces crash damage — it can be the difference between a light shock and dying from the exact same hit. Just keep in mind you can't exit the vehicle, not even bail out mid-flight, while buckled — unbuckle with the same key first.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <h3>🔄 Engine died mid-drive? Don't get out yet</h3>
+                <p>A worn spark plug can randomly stall the engine while you're driving — the worse the plug, the more often. If you're still in gear when it happens, the car will try to catch on its own right after stalling. If you're stopped or in neutral, shift into a forward gear — that's your shot at a rolling (bump) start. You can try as many times as you like by shifting to neutral and back.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <h3>🔋 Dead battery? Push the car down a hill</h3>
+                <p>A bump-start works mechanically, not electrically — it completely ignores the battery's charge. Found a car with a dead battery? Push it (or find a slope), get above roughly 10 km/h, and shift into gear — the engine will catch without any charge at all. Note: the battery still has to physically be there and not be fully Ruined — this doesn't replace a missing one entirely.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">4</div>
+              <div class="step-content">
+                <h3>🔩 Tighten your wheels before a long drive</h3>
+                <p>A lug wrench lets you loosen or tighten a wheel's bolts. A wheel left loose will fall off on its own once you go above roughly 20 km/h — it lands as a normal, pickable item next to the car, but you're left driving on three wheels. Check your wheels before a long trip, especially after someone else has been tinkering with your car.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">5</div>
+              <div class="step-content">
+                <h3>🛠️ Repair a damaged part instead of replacing it</h3>
+                <p>Walk up to the damaged part with the right tool in hand and use the repair option: <b>radiator</b> — Epoxy Putty, <b>spark/glow plug</b> — Electronic Repair Kit, <b>engine</b> — Blowtorch (needs a charged gas canister). Each use heals one damage level, so a badly damaged part may take a few uses to get back to factory-new — no more hunting for a replacement across all of Chernarus. The radiator and spark plug still need replacing once fully Ruined — but the <b>engine can be repaired with a blowtorch even from a complete wreck</b>, all the way back to full health.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">6</div>
+              <div class="step-content">
+                <h3>🔥 Close the doors to warm up</h3>
+                <p>A running engine warms up the cabin, but only when every door (and the trunk on some cars) is closed. Driving a soaked, freezing passenger after escaping the water? Shut every door and get the engine running — leave even one open and the heat escapes, no comfort bonus.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">7</div>
+              <div class="step-content">
+                <h3>🏔️ Taking ADA off-road? The drivetrain finally pulls like it should</h3>
+                <p>On ADA (OffroadHatchback), the center and rear differentials are locked while the front stays open — exactly like a real off-roader with a locking rear axle. One wheel hanging off a rock or a stump no longer steals all the engine's power, and the open front still lets you steer smoothly on pavement instead of fighting the wheel.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">8</div>
+              <div class="step-content">
+                <h3>⛽ Planning a long trip? Bring spare fuel</h3>
+                <p>Cars now burn noticeably more fuel than in the base game — crossing half the map on a single tank is no longer a sure thing. Pack a spare jerry can, especially if you're driving a truck or pushing an off-roader hard.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">9</div>
+              <div class="step-content">
+                <h3>🚀 Need a burst of power? Hold Shift</h3>
+                <p>The server may run an admin-set speed limit to keep road driving more pleasant and safer for everyone. Holding <code>Shift</code> (turbo) temporarily bypasses it, giving you full power exactly when you actually need it — like outrunning a chase.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mod-features-label">All the mod's features at a glance</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">🚙</span><div><b>Driving physics tailored per car</b><span>Suspension, gearbox, engine torque, and steering reworked individually for each of the 5 models — instead of one template for every vehicle.</span></div></div>
+            <div class="mod-feature"><span class="ico">🏎️</span><div><b>Better grip across every car</b><span>Improved suspension and downforce mean all 5 models hold the road more confidently in corners — fewer slides than in the base game.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛞</span><div><b>Real 4x4 drivetrain on ADA</b><span>Locked center and rear differentials on the OffroadHatchback (front stays open) — real off-road traction without losing smooth on-road steering.</span></div></div>
+            <div class="mod-feature"><span class="ico">💪</span><div><b>The Hamer hits harder</b><span>The Offroad_02 got a stronger engine and reworked suspension — driving it should feel noticeably smoother than in the base game.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔧</span><div><b>Engine health matters</b><span>The more worn the engine, the weaker the acceleration and the lower the top speed — instead of a car that drives the same right up until it dies.</span></div></div>
+            <div class="mod-feature"><span class="ico">🕯️</span><div><b>A temperamental spark plug</b><span>A worn plug randomly stalls the engine mid-drive and makes restarting harder — regular maintenance stops being optional.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔄</span><div><b>Bump-starting</b><span>The engine can catch on its own while driving — no matter what state the battery is in.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔩</span><div><b>Wheels that need tightening</b><span>A wheel left unsecured with the lug wrench falls off on its own at higher speed.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛠️</span><div><b>Full repairs, not just replacement</b><span>Radiator, spark plug, and engine can all be repaired back to like-new with the right tool.</span></div></div>
+            <div class="mod-feature"><span class="ico">🪢</span><div><b>Seatbelts</b><span>Real crash-damage reduction — at the cost of being able to bail out mid-flight.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔥</span><div><b>Heat from a running engine</b><span>The bonus only kicks in with closed doors — a realistic cabin, not a magic heater.</span></div></div>
+            <div class="mod-feature"><span class="ico">🧳</span><div><b>A bit more trunk space</b><span>Standard trunks got a little extra room for your gear.</span></div></div>
+            <div class="mod-feature"><span class="ico">⛽</span><div><b>Realistic fuel burn</b><span>Noticeably more fuel burned than in the base game — plan your trips accordingly.</span></div></div>
+          </div>
+
+          <div class="mod-features-label">Pros</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Cars drive and hold the road noticeably better</b><span>Than in the base game — improved suspension and downforce across all 5 models.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Almost any part can be repaired back to like-new</b><span>Radiator, spark plug, engine — no more constantly hunting for a replacement across Chernarus.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>A buckled seatbelt genuinely saves lives</b><span>The same crash with a seatbelt is a light shock — without one, it can be fatal.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Off-roaders finally handle off-road terrain</b><span>Instead of getting stuck on the first rock or stump they meet.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Full control over your car's technical condition</b><span>You'll see and feel the difference between a well-kept car and a wreck on wheels.</span></div></div>
+          </div>
+
+          <div class="mod-features-label">Cons (a.k.a. why driving just got a lot more intense)</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>The engine can fail you at the worst possible moment</b><span>Every trip now carries real risk — reaching your destination is no longer a given.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>A loose wheel is a ticking time bomb</b><span>One moment of carelessness at speed and you're stranded in the middle of nowhere, on three wheels.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>A buckled seatbelt can also trap you if things go wrong</b><span>The "buckle or not" decision suddenly carries real weight, not just a formality.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>Fuel disappears faster than it used to</b><span>A long trip is a logistics game now, not just getting in and driving.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>Not every repair can be done in the field</b><span>A fully Ruined radiator or spark plug still needs a trip to a workshop or a replacement part.</span></div></div>
+          </div>
+
+          <p>In short: driving got harder, more demanding, and a lot more intense — exactly how it should be on a survival server.</p>
+
+          <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Join and get behind the wheel</a>
+        </div>
+
+        <div class="mod-panel" id="mod-wip">
+          <div class="badge-row"><span>Coming soon</span></div>
+          <h2>In progress</h2>
+          <div class="mod-visual">➕</div>
+          <p>We're working on more mods. Previews and descriptions will appear here as soon as they're ready — follow our Discord to stay up to date.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="container cta-banner">
+    <div>
+      <h2>See it live</h2>
+      <p>Join the server and try the Osada system in practice — fight for your faction's dominance.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="join.html" class="btn btn-primary">How to join</a>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-outline">Discord</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="../images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR <span>OVIA</span></a>
+        <p>[PL][EU] Nekrovia | PVP — a DayZ server on the Chernarus Plus map. Survive or die.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="mods.html">Mods</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="join.html">How to join</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Community</h4>
+        <ul>
+          <li><a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener">Discord</a></li>
+          <li><a href="https://trackyserver.com/server/3524642" target="_blank" rel="noopener">Vote for the server</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nekrovia. All rights reserved.</span>
+      <span>This server is not affiliated with Bohemia Interactive.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
