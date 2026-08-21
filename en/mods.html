@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mods | Nekrovia</title>
+<meta name="description" content="Custom Nekrovia mods for DayZ — pick a mod from the list to see how it works. Osada is our flagship faction-war mode." />
+<link rel="icon" href="../images/logo-200.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand"><img src="../images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR <span>OVIA</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="history.html">History</a>
+      <a href="mods.html" class="active">Mods</a>
+      <a href="rules.html">Rules</a>
+      <a href="join.html">How to join</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang-switch"><a href="../modyfikacje.html">PL</a><a href="mods.html" class="active">EN</a></div>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Discord</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Custom mods</span>
+    <h1>Nekrovia Mods</h1>
+    <p>We build our server's entire gameplay system ourselves, from scratch. Pick a mod from the list to see how it works — the list will keep growing as we build more.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="mod-browser">
+
+      <div class="mod-list">
+        <div class="mod-list-label">Flagship mode</div>
+        <button class="mod-list-item active" data-mod="osada"><span class="ico">🏘️</span> Osada</button>
+
+        <div class="mod-list-label">Other mods</div>
+        <button class="mod-list-item" data-mod="blackmarket"><span class="ico">🕴️</span> Black Market</button>
+
+        <div class="mod-list-label">Coming soon</div>
+        <button class="mod-list-item" data-mod="wip"><span class="ico">➕</span> In progress</button>
+      </div>
+
+      <div class="mod-detail" id="modDetail">
+
+        <div class="mod-panel active" id="mod-osada">
+          <div class="badge-row"><span>Flagship mode</span><span>Alpha vs Beta</span><span>PVP</span></div>
+          <h2>Osada</h2>
+          <div class="video-wrap" data-video-id="J7ThH8IOcpc" data-video-title="Nekrovia - Osada gameplay">
+            <img class="video-thumb" src="https://i.ytimg.com/vi/J7ThH8IOcpc/hqdefault.jpg" alt="Nekrovia - Osada gameplay" loading="lazy" />
+            <button class="video-play" aria-label="Play video">&#9654;</button>
+          </div>
+          <p>Osada is our custom, complete gameplay mode. The server splits into two rival factions — Alpha and Beta. Each one builds up its own settlement, earns points through events, and spends them at point-based NPC stations.</p>
+          <p>Once a settlement reaches a high enough build level, its faction unlocks the ability to attack the enemy. Capturing the target ends the Season and declares a winner — the community that built itself up stronger wins.</p>
+
+          <div class="mod-features-label">What Osada includes</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">🧩</span><div><b>Factions</b><span>Players are split into Alpha and Beta, each with a starting base and a faction armband.</span></div></div>
+            <div class="mod-feature"><span class="ico">🏗️</span><div><b>Building</b><span>Resources raise the settlement's level and unlock new buildings.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚔️</span><div><b>Season</b><span>A built-up settlement unlocks an attack on the enemy and a chance to win the season.</span></div></div>
+            <div class="mod-feature"><span class="ico">🚚</span><div><b>Events</b><span>Convoys, loot crates, and capture zones earn points for the settlement.</span></div></div>
+            <div class="mod-feature"><span class="ico">📦</span><div><b>Warehouse</b><span>A shared faction stash that grows with the settlement's level.</span></div></div>
+            <div class="mod-feature"><span class="ico">💬</span><div><b>Faction chat</b><span>A separate communication channel for your own faction's members.</span></div></div>
+            <div class="mod-feature"><span class="ico">🗺️</span><div><b>Map</b><span>Player position and event markers shown on the in-game map.</span></div></div>
+            <div class="mod-feature"><span class="ico">👤</span><div><b>Profile</b><span>Player stats and an on-screen kill feed.</span></div></div>
+            <div class="mod-feature"><span class="ico">📊</span><div><b>Event stats</b><span>A scoreboard and leaderboard for the Alpha vs Beta rivalry.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔧</span><div><b>Mechanic</b><span>A point-based workshop — scrap and parts for repairs and vehicles.</span></div></div>
+            <div class="mod-feature"><span class="ico">💊</span><div><b>Medic</b><span>Instant healing in exchange for points earned from medical supplies.</span></div></div>
+            <div class="mod-feature"><span class="ico">🍞</span><div><b>Pantry</b><span>Food and drink for points, from a basic meal to a full feast.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚒️</span><div><b>Armory</b><span>Craft weapons and ammo from resources and points.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛠️</span><div><b>AdminTools</b><span>An admin panel for managing bases, events, and the season.</span></div></div>
+          </div>
+
+          <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Join and play Osada</a>
+        </div>
+
+        <div class="mod-panel" id="mod-blackmarket">
+          <div class="badge-row"><span>Trading</span><span>Roaming NPC</span></div>
+          <h2>Black Market</h2>
+          <div class="mod-visual">🕴️</div>
+          <p>A mysterious dealer who doesn't stay in one place — he appears at rotating, unmarked locations on the map and disappears after a while, only to show up somewhere else. You never know in advance where you'll find him today.</p>
+          <p>He buys rare and illegal items for casino chips in several denominations, with a per-player sell limit protecting the server economy from abuse. The trading menu works in several languages, including Polish and English.</p>
+        </div>
+
+        <div class="mod-panel" id="mod-wip">
+          <div class="badge-row"><span>Coming soon</span></div>
+          <h2>In progress</h2>
+          <div class="mod-visual">➕</div>
+          <p>We're working on more mods. Previews and descriptions will appear here as soon as they're ready — follow our Discord to stay up to date.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="container cta-banner">
+    <div>
+      <h2>See it live</h2>
+      <p>Join the server and try the Osada system in practice — fight for your faction's dominance.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="join.html" class="btn btn-primary">How to join</a>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-outline">Discord</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="../images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR <span>OVIA</span></a>
+        <p>[PL][EU] Nekrovia | PVP — a DayZ server on the Chernarus Plus map. Survive or die.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="mods.html">Mods</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="join.html">How to join</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Community</h4>
+        <ul>
+          <li><a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener">Discord</a></li>
+          <li><a href="https://trackyserver.com/server/3524642" target="_blank" rel="noopener">Vote for the server</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nekrovia. All rights reserved.</span>
+      <span>This server is not affiliated with Bohemia Interactive.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
