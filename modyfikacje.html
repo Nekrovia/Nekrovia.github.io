@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Modyfikacje | Nekrovia</title>
+<meta name="description" content="Autorskie modyfikacje Nekrovia do DayZ — wybierz mod z listy, żeby zobaczyć jak działa. Osada to nasz flagowy tryb frakcyjnej wojny." />
+<link rel="icon" href="images/logo-200.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand"><img src="images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR <span>OVIA</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Strona główna</a>
+      <a href="o-serwerze.html">O serwerze</a>
+      <a href="historia.html">Historia</a>
+      <a href="modyfikacje.html" class="active">Modyfikacje</a>
+      <a href="zasady.html">Zasady</a>
+      <a href="dolacz.html">Jak dołączyć</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang-switch"><a href="modyfikacje.html" class="active">PL</a><a href="en/mods.html">EN</a></div>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Discord</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Autorskie mody</span>
+    <h1>Modyfikacje Nekrovia</h1>
+    <p>Cały system rozgrywki na naszym serwerze piszemy sami, od podstaw. Wybierz mod z listy, żeby zobaczyć jak działa — lista będzie rosła wraz z kolejnymi, które tworzymy.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="mod-browser">
+
+      <div class="mod-list">
+        <div class="mod-list-label">Flagowy tryb</div>
+        <button class="mod-list-item active" data-mod="osada"><span class="ico">🏘️</span> Osada</button>
+
+        <div class="mod-list-label">Inne mody</div>
+        <button class="mod-list-item" data-mod="blackmarket"><span class="ico">🕴️</span> Black Market</button>
+
+        <div class="mod-list-label">Wkrótce</div>
+        <button class="mod-list-item" data-mod="wprodukcji"><span class="ico">➕</span> W produkcji</button>
+      </div>
+
+      <div class="mod-detail" id="modDetail">
+
+        <div class="mod-panel active" id="mod-osada">
+          <div class="badge-row"><span>Flagowy tryb</span><span>Alfa vs Beta</span><span>PVP</span></div>
+          <h2>Osada</h2>
+          <div class="video-wrap" data-video-id="J7ThH8IOcpc" data-video-title="Nekrovia - gameplay Osada">
+            <img class="video-thumb" src="https://i.ytimg.com/vi/J7ThH8IOcpc/hqdefault.jpg" alt="Nekrovia - gameplay Osada" loading="lazy" />
+            <button class="video-play" aria-label="Odtwórz wideo">&#9654;</button>
+          </div>
+          <p>Osada to nasz autorski, kompletny tryb rozgrywki. Serwer dzieli się na dwie rywalizujące frakcje — Alfę i Betę. Każda z nich rozbudowuje własną osadę, zdobywa punkty w eventach i wydaje je w punktowych stacjach NPC.</p>
+          <p>Gdy osada osiągnie odpowiedni poziom rozbudowy, jej frakcja odblokowuje możliwość ataku na wroga. Przejęcie celu kończy Sezon i ogłasza zwycięzcę — wygrywa ta społeczność, która zbudowała się silniej.</p>
+
+          <div class="mod-features-label">Co obejmuje Osada</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">🧩</span><div><b>Frakcje</b><span>Podział graczy na Alfę i Betę, z bazą startową i opaską frakcyjną.</span></div></div>
+            <div class="mod-feature"><span class="ico">🏗️</span><div><b>Rozbudowa</b><span>Surowce podnoszą poziom osady i odblokowują nowe budynki.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚔️</span><div><b>Sezon</b><span>Rozbudowana osada odblokowuje atak na wroga i wygraną sezonu.</span></div></div>
+            <div class="mod-feature"><span class="ico">🚚</span><div><b>Eventy</b><span>Konwoje, skrzynie lootu i strefy do przejęcia dają punkty osadzie.</span></div></div>
+            <div class="mod-feature"><span class="ico">📦</span><div><b>Magazynier</b><span>Wspólny magazyn frakcji, rosnący wraz z poziomem osady.</span></div></div>
+            <div class="mod-feature"><span class="ico">💬</span><div><b>FrakChat</b><span>Osobny kanał komunikacji dla członków własnej frakcji.</span></div></div>
+            <div class="mod-feature"><span class="ico">🗺️</span><div><b>Mapa</b><span>Pozycja gracza i znaczniki eventów na mapie w grze.</span></div></div>
+            <div class="mod-feature"><span class="ico">👤</span><div><b>Profil</b><span>Statystyki gracza i kill-feed na ekranie.</span></div></div>
+            <div class="mod-feature"><span class="ico">📊</span><div><b>StatEventy</b><span>Tablica wyników i lider rywalizacji Alfa vs Beta.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔧</span><div><b>Mechanik</b><span>Punktowy warsztat — złom i części za naprawy i pojazdy.</span></div></div>
+            <div class="mod-feature"><span class="ico">💊</span><div><b>Medyczny</b><span>Natychmiastowe leczenie za punkty z apteczek.</span></div></div>
+            <div class="mod-feature"><span class="ico">🍞</span><div><b>Spiżarnia</b><span>Jedzenie i picie za punkty, od posiłku po ucztę.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚒️</span><div><b>Zbrojownia</b><span>Craft broni i amunicji za surowce i punkty.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛠️</span><div><b>AdminTools</b><span>Panel administracyjny do zarządzania bazami, eventami i sezonem.</span></div></div>
+          </div>
+
+          <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Dołącz i zagraj w Osadę</a>
+        </div>
+
+        <div class="mod-panel" id="mod-blackmarket">
+          <div class="badge-row"><span>Handel</span><span>Roaming NPC</span></div>
+          <h2>Black Market</h2>
+          <div class="mod-visual">🕴️</div>
+          <p>Tajemniczy handlarz, który nie stoi w jednym miejscu — pojawia się w rotujących, nieoznaczonych lokalizacjach na mapie i po pewnym czasie znika, by pojawić się gdzie indziej. Nigdy nie wiadomo z góry, gdzie go dziś znajdziesz.</p>
+          <p>Skupuje rzadkie i nielegalne przedmioty za żetony kasyna w kilku nominałach, z limitem sprzedaży na gracza chroniącym ekonomię serwera przed nadużyciami. Menu handlu działa w kilku językach, w tym po polsku i angielsku.</p>
+        </div>
+
+        <div class="mod-panel" id="mod-wprodukcji">
+          <div class="badge-row"><span>Zapowiedź</span></div>
+          <h2>W produkcji</h2>
+          <div class="mod-visual">➕</div>
+          <p>Pracujemy nad kolejnymi modami. Podglądy i opisy pojawią się tutaj, gdy tylko będą gotowe — śledź Discorda, żeby być na bieżąco.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="container cta-banner">
+    <div>
+      <h2>Zobacz to na żywo</h2>
+      <p>Dołącz do serwera i sprawdź system Osady w praktyce — walcz o dominację swojej frakcji.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="dolacz.html" class="btn btn-primary">Jak dołączyć</a>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-outline">Discord</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR <span>OVIA</span></a>
+        <p>[PL][EU] Nekrovia | PVP — serwer DayZ na mapie Chernarus Plus. Survive or die.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="o-serwerze.html">O serwerze</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="modyfikacje.html">Modyfikacje</a></li>
+          <li><a href="zasady.html">Zasady</a></li>
+          <li><a href="dolacz.html">Jak dołączyć</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Społeczność</h4>
+        <ul>
+          <li><a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener">Discord</a></li>
+          <li><a href="https://trackyserver.com/server/3524642" target="_blank" rel="noopener">Głosuj na serwer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nekrovia. Wszelkie prawa zastrzeżone.</span>
+      <span>Serwer nie jest powiązany z Bohemia Interactive.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
