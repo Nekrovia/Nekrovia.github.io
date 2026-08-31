@@ -111,7 +111,7 @@ ul {
   box-shadow: 0 0 0 1px var(--border);
 }
 
-.brand span {
+.brand-text span {
   color: var(--accent-light);
 }
 
