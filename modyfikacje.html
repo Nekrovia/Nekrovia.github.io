@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Modyfikacje | Nekrovia</title>
+<meta name="description" content="Autorskie modyfikacje Nekrovia do DayZ — wybierz mod z listy, żeby zobaczyć jak działa. Osada to nasz flagowy tryb frakcyjnej wojny." />
+<link rel="icon" href="images/logo-200.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand"><img src="images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR<span>OVIA</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Strona główna</a>
+      <a href="o-serwerze.html">O serwerze</a>
+      <a href="historia.html">Historia</a>
+      <a href="modyfikacje.html" class="active">Modyfikacje</a>
+      <a href="zasady.html">Zasady</a>
+      <a href="dolacz.html">Jak dołączyć</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang-switch"><a href="modyfikacje.html" class="active">PL</a><a href="en/mods.html">EN</a></div>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Discord</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Autorskie mody</span>
+    <h1>Modyfikacje Nekrovia</h1>
+    <p>Cały system rozgrywki na naszym serwerze piszemy sami, od podstaw. Wybierz mod z listy, żeby zobaczyć jak działa — lista będzie rosła wraz z kolejnymi, które tworzymy.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="mod-browser">
+
+      <div class="mod-list">
+        <div class="mod-list-label">Flagowy tryb</div>
+        <button class="mod-list-item active" data-mod="osada"><span class="ico">🏘️</span> Osada</button>
+
+        <div class="mod-list-label">Inne mody</div>
+        <button class="mod-list-item" data-mod="blackmarket"><span class="ico">🕴️</span> Black Market</button>
+        <button class="mod-list-item" data-mod="pojazdy"><span class="ico">🚗</span> Fizyka Pojazdów</button>
+        <button class="mod-list-item" data-mod="placement"><span class="ico">📌</span> Placement</button>
+
+        <div class="mod-list-label">Wkrótce</div>
+        <button class="mod-list-item" data-mod="wprodukcji"><span class="ico">➕</span> W produkcji</button>
+      </div>
+
+      <div class="mod-detail" id="modDetail">
+
+        <div class="mod-panel active" id="mod-osada">
+          <div class="badge-row"><span>Flagowy tryb</span><span>Alfa vs Beta</span><span>PVP</span></div>
+          <h2>Osada</h2>
+          <div class="video-wrap" data-video-id="J7ThH8IOcpc" data-video-title="Nekrovia - gameplay Osada">
+            <img class="video-thumb" src="https://i.ytimg.com/vi/J7ThH8IOcpc/hqdefault.jpg" alt="Nekrovia - gameplay Osada" loading="lazy" />
+            <button class="video-play" aria-label="Odtwórz wideo">&#9654;</button>
+          </div>
+          <p>Osada to nasz autorski, kompletny tryb rozgrywki. Serwer dzieli się na dwie rywalizujące frakcje — Alfę i Betę. Każda z nich rozbudowuje własną osadę, zdobywa punkty w eventach i wydaje je w punktowych stacjach NPC.</p>
+          <p>Gdy osada osiągnie odpowiedni poziom rozbudowy, jej frakcja odblokowuje możliwość ataku na wroga. Przejęcie celu kończy Sezon i ogłasza zwycięzcę — wygrywa ta społeczność, która zbudowała się silniej.</p>
+
+          <div class="mod-features-label">Co obejmuje Osada</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">🧩</span><div><b>Frakcje</b><span>Podział graczy na Alfę i Betę, z bazą startową i opaską frakcyjną.</span></div></div>
+            <div class="mod-feature"><span class="ico">🏗️</span><div><b>Rozbudowa</b><span>Surowce podnoszą poziom osady i odblokowują nowe budynki.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚔️</span><div><b>Sezon</b><span>Rozbudowana osada odblokowuje atak na wroga i wygraną sezonu.</span></div></div>
+            <div class="mod-feature"><span class="ico">🚚</span><div><b>Eventy</b><span>Konwoje, skrzynie lootu i strefy do przejęcia dają punkty osadzie.</span></div></div>
+            <div class="mod-feature"><span class="ico">📦</span><div><b>Magazynier</b><span>Wspólny magazyn frakcji, rosnący wraz z poziomem osady.</span></div></div>
+            <div class="mod-feature"><span class="ico">💬</span><div><b>FrakChat</b><span>Osobny kanał komunikacji dla członków własnej frakcji.</span></div></div>
+            <div class="mod-feature"><span class="ico">🗺️</span><div><b>Mapa</b><span>Pozycja gracza i znaczniki eventów na mapie w grze.</span></div></div>
+            <div class="mod-feature"><span class="ico">👤</span><div><b>Profil</b><span>Statystyki gracza i kill-feed na ekranie.</span></div></div>
+            <div class="mod-feature"><span class="ico">📊</span><div><b>StatEventy</b><span>Tablica wyników i lider rywalizacji Alfa vs Beta.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔧</span><div><b>Mechanik</b><span>Punktowy warsztat — złom i części za naprawy i pojazdy.</span></div></div>
+            <div class="mod-feature"><span class="ico">💊</span><div><b>Medyczny</b><span>Natychmiastowe leczenie za punkty z apteczek.</span></div></div>
+            <div class="mod-feature"><span class="ico">🍞</span><div><b>Spiżarnia</b><span>Jedzenie i picie za punkty, od posiłku po ucztę.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚒️</span><div><b>Zbrojownia</b><span>Craft broni i amunicji za surowce i punkty.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛠️</span><div><b>AdminTools</b><span>Panel administracyjny do zarządzania bazami, eventami i sezonem.</span></div></div>
+          </div>
+
+          <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Dołącz i zagraj w Osadę</a>
+        </div>
+
+        <div class="mod-panel" id="mod-blackmarket">
+          <div class="badge-row"><span>Handel</span><span>Roaming NPC</span></div>
+          <h2>Black Market</h2>
+          <div class="mod-visual">🕴️</div>
+          <p>Tajemniczy handlarz, który nie stoi w jednym miejscu — pojawia się w rotujących, nieoznaczonych lokalizacjach na mapie i po pewnym czasie znika, by pojawić się gdzie indziej. Nigdy nie wiadomo z góry, gdzie go dziś znajdziesz.</p>
+          <p>Skupuje rzadkie i nielegalne przedmioty za żetony kasyna w kilku nominałach, z limitem sprzedaży na gracza chroniącym ekonomię serwera przed nadużyciami. Menu handlu działa w kilku językach, w tym po polsku i angielsku.</p>
+        </div>
+
+        <div class="mod-panel" id="mod-pojazdy">
+          <div class="badge-row"><span>Pojazdy</span><span>Realizm</span><span>5 aut</span></div>
+          <h2>Fizyka Pojazdów</h2>
+          <div class="mod-visual"><img src="images/mods/pojazdy/full/001.jpg" loading="lazy" alt="Auto z założonymi, otwartymi drzwiami" /></div>
+          <p>Przepisaliśmy prowadzenie i mechanikę pojazdów od podstaw — osobno dla każdego z 5 modeli. Stan techniczny auta ma teraz realny wpływ na to, jak ono jeździ i zachowuje się w trasie, a nie tylko na to, co widzisz w jego pasku zdrowia.</p>
+          <p>Zajeżdżony silnik traci moc, zużyta świeca zapłonowa potrafi zostawić cię na środku drogi, a niedokręcone koło odpadnie, jeśli za bardzo się rozpędzisz. Terenówki w terenie faktycznie ciągną wszystkimi kołami, a nie grzebią jednym zawieszonym w powietrzu. Na szczęście prawie wszystko da się teraz naprawić — nawet do stanu fabrycznie nowego.</p>
+
+          <div class="mod-features-label">Jak grać z nowymi mechanikami — scenariusz po scenariuszu</div>
+          <div class="steps">
+            <div class="step">
+              <div class="step-num">1</div>
+              <div class="step-content">
+                <h3>🪢 Zawsze zapinaj pasy klawiszem <code>C</code></h3>
+                <p>Zapięte pasy mocno ograniczają obrażenia z wypadku — mogą być różnicą między lekkim szokiem a śmiercią przy tym samym uderzeniu. Pamiętaj tylko, że przy zapiętych pasach nie wysiądziesz z auta, nawet awaryjnie w locie — najpierw odepnij je tym samym klawiszem.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">2</div>
+              <div class="step-content">
+                <h3>🔄 Silnik zgasł w trasie? Nie wysiadaj od razu</h3>
+                <p>Zajeżdżona świeca zapłonowa potrafi losowo zgasić silnik podczas jazdy — im gorsza świeca, tym częściej. Jeśli w tym momencie jedziesz na biegu, auto samo spróbuje złapać zapłon zaraz po zgaśnięciu. Jeśli stoisz albo jedziesz na luzie — wrzuć bieg do przodu, to Twoja szansa na odpalenie na pych. Możesz próbować wielokrotnie, wrzucając luz i bieg na przemian, ile chcesz.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">3</div>
+              <div class="step-content">
+                <h3>🔋 Martwa bateria? Zepchnij auto z górki</h3>
+                <p>Odpalenie na pych działa mechanicznie, nie elektrycznie — kompletnie ignoruje stan baterii. Znalazłeś auto z rozładowanym akumulatorem? Zepchnij je (albo znajdź stok), nabierz prędkości powyżej ok. 10 km/h i wrzuć bieg — silnik złapie bez ładowania baterii. Uwaga: bateria wciąż musi tam fizycznie być i nie być doszczętnie spalona — to nie zastąpi jej całkowitego braku.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">4</div>
+              <div class="step-content">
+                <h3>🔩 Dokręcaj koła kluczem, zanim ruszysz w trasę</h3>
+                <p>Kluczem do kół możesz odkręcić lub dokręcić nakrętki. Koło zostawione niedokręcone samo odpadnie, gdy rozpędzisz auto powyżej ok. 20 km/h — ląduje jako normalny, zbieralny przedmiot obok auta, ale zostajesz z autem na trzech kołach. Sprawdź stan kół przed dłuższą podróżą, zwłaszcza po tym jak ktoś inny majstrował przy Twoim aucie.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">5</div>
+              <div class="step-content">
+                <h3>🛠️ Napraw uszkodzoną część zamiast ją wymieniać</h3>
+                <p>Podejdź do uszkodzonej części z odpowiednim narzędziem w rękach i użyj opcji naprawy: <b>chłodnica</b> — kit epoksydowy (Epoxy Putty), <b>świeca zapłonowa/żarowa</b> — elektryczny zestaw naprawczy (Electronic Repair Kit), <b>silnik</b> — palnik (Blowtorch, wymaga naładowanej butli gazowej). Każde użycie leczy jeden poziom uszkodzenia, więc mocno zniszczoną część naprawisz kilkoma użyciami aż do stanu jak fabrycznie nowa — bez szukania zamiennika w całym Czarnorusiu. Uwaga: to działa tylko, dopóki część nie jest doszczętnie zniszczona (Ruined) — <b>chłodnicę, świecę i silnik w stanie Ruined trzeba wymienić</b>, żaden zestaw naprawczy ani palnik już ich nie uratuje.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">6</div>
+              <div class="step-content">
+                <h3>🔥 Załóż i zamknij drzwi, żeby się ogrzać</h3>
+                <p>Pracujący silnik ogrzewa kabinę, ale tylko gdy wszystkie drzwi (i bagażnik w niektórych autach) są <b>założone i zamknięte</b> — samo zamknięcie nie wystarczy, jeśli którychś drzwi w ogóle brakuje na aucie. Wieziesz zmarzniętego towarzysza po ucieczce z wody? Upewnij się, że każde drzwi są na miejscu, zamknij je i włącz silnik — z choćby jednymi zdjętymi albo otwartymi ciepło ucieka na zewnątrz i bonusu nie poczujecie.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">7</div>
+              <div class="step-content">
+                <h3>🏔️ Jedziesz ADĄ w teren? Napęd w końcu ciągnie jak trzeba</h3>
+                <p>W ADZIE (OffroadHatchback) dyferencjał centralny i tylny są zablokowane, a przedni zostaje otwarty — dokładnie jak w prawdziwej terenówce z blokowanym tylnym mostem. Jedno koło zawieszone w powietrzu na kamieniu czy pieńku już nie zabiera całej mocy silnika, a otwarty przód wciąż pozwala płynnie skręcać na asfalcie zamiast szarpać kierownicą.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">8</div>
+              <div class="step-content">
+                <h3>⛽ Planując dłuższą trasę, weź zapas paliwa</h3>
+                <p>Auta spalają teraz zauważalnie więcej paliwa niż w oryginalnej grze — jazda przez pół mapy na jednym baku to już nie pewniak. Zabierz kanister zapasowy, zwłaszcza jeśli jedziesz ciężarówką albo terenówką na duże obroty.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">9</div>
+              <div class="step-content">
+                <h3>🚀 Potrzebujesz zapasu mocy? Przytrzymaj Shift</h3>
+                <p>Serwer może mieć włączony administracyjny limit prędkości, żeby jazda po drogach była przyjemniejsza i bezpieczniejsza dla wszystkich. Przytrzymanie <code>Shift</code> (turbo) czasowo go omija, dając Ci pełną moc wtedy, kiedy naprawdę jej potrzebujesz — np. uciekając przed pościgiem.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mod-features-label">Wszystkie cechy moda w skrócie</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">🚙</span><div><b>Fizyka jazdy skrojona pod każde auto</b><span>Zawieszenie, skrzynia biegów, moment silnika i skręt przerobione osobno dla każdego z 5 modeli — zamiast jednego szablonu na wszystkie pojazdy.</span></div></div>
+            <div class="mod-feature"><span class="ico">🏎️</span><div><b>Lepsza przyczepność we wszystkich autach</b><span>Poprawione zawieszenie i docisk sprawiają, że każdy z 5 modeli trzyma się drogi pewniej w zakrętach — mniej poślizgów niż w oryginalnej grze.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛞</span><div><b>Prawdziwy napęd 4x4 w ADZIE</b><span>Zablokowany dyferencjał centralny i tylny (przedni otwarty) w OffroadHatchbacku — realna trakcja w terenie bez utraty płynności skrętu na asfalcie.</span></div></div>
+            <div class="mod-feature"><span class="ico">💪</span><div><b>Hamer z większą mocą</b><span>Offroad_02 dostał mocniejszy silnik i dopracowane zawieszenie — jazda ma być zauważalnie płynniejsza niż w oryginale.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔧</span><div><b>Zdrowie silnika ma znaczenie</b><span>Im bardziej zajeżdżony silnik, tym słabsze przyspieszenie i niższa prędkość maksymalna — zamiast auta, które jedzie tak samo aż do samego końca.</span></div></div>
+            <div class="mod-feature"><span class="ico">🕯️</span><div><b>Kapryśna świeca zapłonowa</b><span>Zużyta świeca losowo gasi silnik w trasie i utrudnia ponowne odpalenie — regularny serwis przestaje być fanaberią.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔄</span><div><b>Odpalenie na pych</b><span>Silnik potrafi złapać sam podczas jazdy — obojętnie w jakim stanie jest bateria.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔩</span><div><b>Koła, które trzeba dokręcić</b><span>Niezabezpieczone kluczem koło odpada samo przy większej prędkości.</span></div></div>
+            <div class="mod-feature"><span class="ico">🛠️</span><div><b>Pełna naprawa, nie tylko wymiana</b><span>Chłodnica, świeca i silnik naprawialne do stanu jak nowy odpowiednim narzędziem.</span></div></div>
+            <div class="mod-feature"><span class="ico">🪢</span><div><b>Pasy bezpieczeństwa</b><span>Realna redukcja obrażeń z wypadku — kosztem możliwości wyjścia z auta w locie.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔥</span><div><b>Ciepło z pracującego silnika</b><span>Bonus tylko gdy wszystkie drzwi są założone i zamknięte — realistyczna kabina, nie magiczna grzałka.</span></div></div>
+            <div class="mod-feature"><span class="ico">🧳</span><div><b>Trochę większy bagażnik</b><span>Standardowe bagażniki dostały odrobinę więcej miejsca na Twój dobytek.</span></div></div>
+            <div class="mod-feature"><span class="ico">⛽</span><div><b>Realne spalanie paliwa</b><span>Zauważalnie więcej paliwa spalanego niż w oryginalnej grze — planuj trasy z głową.</span></div></div>
+          </div>
+
+          <div class="mod-features-label">Plusy</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Auta jeżdżą i trzymają drogę zauważalnie lepiej</b><span>Niż w oryginalnej grze — poprawione zawieszenie i docisk dla wszystkich 5 modeli.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Prawie każdą część naprawisz do stanu jak nowa</b><span>Chłodnica, świeca i silnik — bez ciągłego szukania zamiennika w całym Czarnorusiu.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Zapięte pasy realnie ratują życie</b><span>Ten sam wypadek z pasami to lekki szok, bez nich może być śmiertelny.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Terenówki wreszcie radzą sobie w terenie</b><span>Zamiast utykać na pierwszym lepszym kamieniu czy pieńku.</span></div></div>
+            <div class="mod-feature"><span class="ico">✅</span><div><b>Pełna kontrola nad stanem technicznym auta</b><span>Widzisz i czujesz różnicę między dopieszczonym autem a wrakiem na kółkach.</span></div></div>
+          </div>
+
+          <div class="mod-features-label">Minusy (czyli dlaczego jazda robi się dużo bardziej emocjonująca)</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>Silnik może Cię zawieść w najgorszym możliwym momencie</b><span>Każda podróż niesie realne ryzyko — dotarcie do celu przestaje być pewniakiem.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>Niedokręcone koło to bomba zegarowa</b><span>Jedna chwila nieuwagi przy prędkości i zostajesz w środku niczego, na trzech kołach.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>Zapięte pasy to też uwięzienie, jeśli sprawy pójdą źle</b><span>Decyzja „zapiąć czy nie" nagle waży realne konsekwencje, nie jest już formalnością.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>Paliwo znika szybciej niż kiedyś</b><span>Długa trasa to gra w logistykę, nie tylko wsiadanie i jazda przed siebie.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚠️</span><div><b>Nie każdą naprawę zrobisz w polu</b><span>Doszczętnie zniszczoną (Ruined) chłodnicę, świecę albo silnik trzeba wymienić — żaden zestaw naprawczy ich nie uratuje.</span></div></div>
+          </div>
+
+          <p>Krótko mówiąc: prowadzenie stało się trudniejsze, bardziej wymagające i dużo bardziej emocjonujące — dokładnie tak, jak powinno być na serwerze przetrwania.</p>
+
+          <div class="mod-gallery-label">Zdejmowane części w akcji</div>
+          <div class="gallery-grid">
+            <button class="gallery-item" data-full="images/mods/pojazdy/full/001.jpg"><img src="images/mods/pojazdy/thumbs/001.jpg" loading="lazy" alt="Auto z otwartymi, założonymi drzwiami" /></button>
+            <button class="gallery-item" data-full="images/mods/pojazdy/full/002.jpg"><img src="images/mods/pojazdy/thumbs/002.jpg" loading="lazy" alt="Zdjęte drzwi i koło leżące osobno obok auta" /></button>
+          </div>
+
+          <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Dołącz i wsiądź za kółko</a>
+        </div>
+
+        <div class="mod-panel" id="mod-placement">
+          <div class="badge-row"><span>Baza</span><span>Dekoracje</span><span>Uniwersalny</span></div>
+          <h2>Placement</h2>
+          <div class="mod-visual"><img src="images/mods/placement/full/002.jpg" loading="lazy" alt="Broń i plecak powieszone na ścianie" /></div>
+          <p>Koniec z bezmyślnym rzucaniem przedmiotów pod nogi. Trzymając cokolwiek w rękach, wybierz z menu akcji „Umieść” — zamiast upuszczenia, przedmiot stawiasz dokładnie tam, gdzie celujesz, w zasięgu do 2 metrów. Na półce, na ścianie, na stole — gdziekolwiek zechcesz.</p>
+          <p>Działa dla dosłownie każdego przedmiotu w grze, łącznie z tymi, których w podstawowej wersji gry nie da się postawić — garnkiem z zupą czy manierką z wodą w środku. Twoja baza w końcu może wyglądać jak baza, nie magazyn rzeczy porozrzucanych po podłodze: broń powieszona na ścianie, zapasy poukładane na półkach, zdobyczny hełm czy plecak zawieszony jak trofeum.</p>
+
+          <div class="mod-features-label">Co potrafi Placement</div>
+          <div class="mod-features">
+            <div class="mod-feature"><span class="ico">🎯</span><div><b>Precyzyjne stawianie</b><span>Celuj i umieszczaj przedmiot dokładnie tam, gdzie chcesz, w zasięgu do 2 m — zamiast rzucać go pod nogi.</span></div></div>
+            <div class="mod-feature"><span class="ico">🔄</span><div><b>Obrót w dwóch dodatkowych osiach</b><span>Oprócz zwykłego obrotu scrollem: Ctrl+scroll przechyla przedmiot bokiem, Alt+scroll zmienia jego pochylenie (do 89° w każdą stronę).</span></div></div>
+            <div class="mod-feature"><span class="ico">↕️</span><div><b>Regulacja wysokości</b><span>Shift+scroll podnosi lub opuszcza przedmiot w drobnych krokach — idealne pod półki i wieszaki na ścianie.</span></div></div>
+            <div class="mod-feature"><span class="ico">📦</span><div><b>Działa z każdym przedmiotem</b><span>Nawet z garnkiem pełnym zupy czy manierką z wodą — w vanilli nie dają się postawić w ogóle.</span></div></div>
+            <div class="mod-feature"><span class="ico">🧱</span><div><b>Bez ograniczeń kolizją na terenie bazy</b><span>Prawdziwe budowle — namioty, płoty, beczki — stawiasz dokładnie tak jak w vanilla, bez żadnych zmian.</span></div></div>
+            <div class="mod-feature"><span class="ico">⚡</span><div><b>Szybka, naturalna animacja</b><span>Umieszczenie trwa moment i wygląda naturalnie, bez dziwnego przyklękania przy cięższych przedmiotach.</span></div></div>
+          </div>
+
+          <div class="mod-gallery-label">Zobacz w akcji</div>
+          <div class="gallery-grid">
+            <button class="gallery-item" data-full="images/mods/placement/full/001.jpg"><img src="images/mods/placement/thumbs/001.jpg" loading="lazy" alt="Skrzynka z jedzeniem zamontowana na ścianie" /></button>
+            <button class="gallery-item" data-full="images/mods/placement/full/002.jpg"><img src="images/mods/placement/thumbs/002.jpg" loading="lazy" alt="Broń i plecak powieszone na ścianie" /></button>
+            <button class="gallery-item" data-full="images/mods/placement/full/003.jpg"><img src="images/mods/placement/thumbs/003.jpg" loading="lazy" alt="Drzwi od auta ustawione jako dekoracja przy ścianie" /></button>
+          </div>
+
+          <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Dołącz i urządź swoją bazę</a>
+        </div>
+
+        <div class="mod-panel" id="mod-wprodukcji">
+          <div class="badge-row"><span>Zapowiedź</span></div>
+          <h2>W produkcji</h2>
+          <div class="mod-visual">➕</div>
+          <p>Pracujemy nad kolejnymi modami. Podglądy i opisy pojawią się tutaj, gdy tylko będą gotowe — śledź Discorda, żeby być na bieżąco.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--border);">
+  <div class="container cta-banner">
+    <div>
+      <h2>Zobacz to na żywo</h2>
+      <p>Dołącz do serwera i sprawdź system Osady w praktyce — walcz o dominację swojej frakcji.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="dolacz.html" class="btn btn-primary">Jak dołączyć</a>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-outline">Discord</a>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Zamknij">&times;</button>
+  <button class="lightbox-prev" id="lightboxPrev" aria-label="Poprzednie">&lsaquo;</button>
+  <img id="lightboxImg" src="" alt="Podgląd zdjęcia" />
+  <button class="lightbox-next" id="lightboxNext" aria-label="Następne">&rsaquo;</button>
+  <div class="lightbox-counter" id="lightboxCounter"></div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR<span>OVIA</span></a>
+        <p>[PL][EU] Nekrovia | PVP — serwer DayZ na mapie Chernarus Plus. Survive or die.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="o-serwerze.html">O serwerze</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="modyfikacje.html">Modyfikacje</a></li>
+          <li><a href="zasady.html">Zasady</a></li>
+          <li><a href="dolacz.html">Jak dołączyć</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Społeczność</h4>
+        <ul>
+          <li><a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener">Discord</a></li>
+          <li><a href="https://trackyserver.com/server/3524642" target="_blank" rel="noopener">Głosuj na serwer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nekrovia. Wszelkie prawa zastrzeżone.</span>
+      <span>Serwer nie jest powiązany z Bohemia Interactive.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

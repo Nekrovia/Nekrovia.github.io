@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nekrovia | [PL][EU] Serwer DayZ PVP/PVE</title>
+<meta name="description" content="Nekrovia — serwer DayZ PVP/PVE na mapie Chernarus Plus. NoRaid, custom loot, aktywna społeczność. Dołącz już dziś!" />
+<link rel="icon" href="images/logo-200.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a href="index.html" class="brand"><img src="images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR<span>OVIA</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Strona główna</a>
+      <a href="o-serwerze.html">O serwerze</a>
+      <a href="historia.html">Historia</a>
+      <a href="modyfikacje.html">Modyfikacje</a>
+      <a href="zasady.html">Zasady</a>
+      <a href="dolacz.html">Jak dołączyć</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="lang-switch"><a href="index.html" class="active">PL</a><a href="en/index.html">EN</a></div>
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Discord</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <span class="hero-eyebrow">Serwer online · 127 slotów</span>
+    <h1>NEKR<span>OVIA</span></h1>
+    <p class="hero-sub">[PL][EU] Nekrovia | PVP — Chernarus Plus. Custom loot, brak raidowania offline baz i wymagająca rozgrywka. Survive or die.</p>
+
+    <div class="hero-actions">
+      <a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener" class="btn btn-primary">Dołącz do Discorda</a>
+      <a href="dolacz.html" class="btn btn-outline">Jak dołączyć do serwera</a>
+      <a href="https://trackyserver.com/server/3524642" target="_blank" rel="noopener" class="btn btn-olive">Zagłosuj na serwer</a>
+    </div>
+
+    <div class="status-bar">
+      <div class="status-ip">
+        <div>
+          <div class="status-label">Adres serwera</div>
+          <div class="status-value" id="serverIp">46.151.138.13:2306</div>
+        </div>
+        <button class="copy-btn" id="copyIpBtn" data-ip="46.151.138.13:2306">Kopiuj IP</button>
+      </div>
+      <div class="status-item">
+        <div class="status-label">Mapa</div>
+        <div class="status-value">Chernarus Plus</div>
+      </div>
+      <div class="status-item">
+        <div class="status-label">Wersja gry</div>
+        <div class="status-value">1.29.0</div>
+      </div>
+      <div class="status-item">
+        <div class="status-label">Gracze</div>
+        <div class="status-value">Max 127</div>
+      </div>
+      <div class="status-item">
+        <div class="status-label">Tryb</div>
+        <div class="status-value">PVP / PVE</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tags-strip">
+  <div class="container tags-grid">
+    <div class="tag-card">
+      <span class="badge">PVPe</span>
+      <p>Hybrydowa rozgrywka — starcia z innymi graczami połączone z elementami PVE. Adrenalina i taktyka w jednym.</p>
+    </div>
+    <div class="tag-card">
+      <span class="badge">LBmaster</span>
+      <p>Twórz własne grupy i graj razem ze znajomymi, a do tego korzystaj z podglądu mapy w grze — łatwiej się odnajdziesz w Chernarus.</p>
+    </div>
+    <div class="tag-card">
+      <span class="badge">NoRaid</span>
+      <p>Twoja baza jest bezpieczna — raidowanie offline'owych baz jest wyłączone. Buduj bez obaw o utratę dorobku pod nieobecność.</p>
+    </div>
+    <div class="tag-card">
+      <span class="badge">Custom</span>
+      <p>Autorskie modyfikacje, custom loot i dopracowana konfiguracja serwera dla lepszego balansu rozgrywki.</p>
+    </div>
+  </div>
+</section>
+
+<section id="o-serwerze">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">O serwerze</span>
+      <h2>Chernarus Plus jak nigdy dotąd</h2>
+      <p>Nekrovia to serwer stawiający na balans między wymagającym PVP a survivalowym klimatem PVE. Zbudowany z myślą o graczach, którzy szukają czegoś więcej niż standardowa rozgrywka.</p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">01</div>
+        <h3>Uczciwe PVP</h3>
+        <p>Aktywna administracja, anti-cheat i stałe monitorowanie serwera — zero tolerancji dla cheaterów i exploitów.</p>
+      </div>
+      <div class="card">
+        <div class="icon">02</div>
+        <h3>Bezpieczne bazy</h3>
+        <p>Dzięki NoRaid Twoja baza i dorobek są chronione, gdy jesteś offline. Buduj, rozwijaj się i wracaj tam, gdzie skończyłeś.</p>
+      </div>
+      <div class="card">
+        <div class="icon">03</div>
+        <h3>Custom loot</h3>
+        <p>Przemyślana ekonomia lootu i dodatkowe modyfikacje sprawiają, że eksploracja mapy ma sens od pierwszej do ostatniej minuty.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="zasady" style="border-top:1px solid var(--border); background:linear-gradient(180deg, rgba(20,18,14,0.025), transparent);">
+  <div class="container cta-banner">
+    <div>
+      <h2>Zanim wskoczysz na serwer</h2>
+      <p>Zapoznaj się z pełną listą zasad — to podstawa uczciwej i przyjemnej rozgrywki dla wszystkich.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="zasady.html" class="btn btn-primary">Przeczytaj zasady</a>
+    </div>
+  </div>
+</section>
+
+<section id="dolacz">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Dołącz do gry</span>
+      <h2>Jak wystartować w 3 krokach</h2>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="icon">1</div>
+        <h3>Zainstaluj mody</h3>
+        <p>Pobierz wymagane modyfikacje przez launcher DayZ — pełna lista znajduje się na podstronie „Jak dołączyć”.</p>
+      </div>
+      <div class="card">
+        <div class="icon">2</div>
+        <h3>Znajdź serwer</h3>
+        <p>Wyszukaj „Nekrovia” w przeglądarce serwerów lub połącz się bezpośrednio po adresie IP.</p>
+      </div>
+      <div class="card">
+        <div class="icon">3</div>
+        <h3>Wskocz do gry</h3>
+        <p>Dołącz, przeczytaj tablicę ogłoszeń w grze i zacznij przetrwanie w Chernarus Plus.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:40px; text-align:center;">
+      <a href="dolacz.html" class="btn btn-outline">Zobacz pełną instrukcję</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="vote-box" style="justify-content:space-between; flex-wrap:wrap;">
+      <div class="vote-text">
+        <b>Podoba Ci się serwer?</b>
+        <span>Zagłosuj na Nekrovię na TrackyServer i pomóż nam rosnąć.</span>
+      </div>
+      <a href="https://trackyserver.com/server/3524642" target="_blank" rel="noopener">
+        <img src="images/800x300.png" width="400" height="150" style="max-width:400px; border-radius:4px;" alt="Nekrovia — zagłosuj na serwer" />
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="images/logo-200.png" alt="Nekrovia" class="brand-logo" />NEKR<span>OVIA</span></a>
+        <p>[PL][EU] Nekrovia | PVP — serwer DayZ na mapie Chernarus Plus. Survive or die.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Nawigacja</h4>
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="o-serwerze.html">O serwerze</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="modyfikacje.html">Modyfikacje</a></li>
+          <li><a href="zasady.html">Zasady</a></li>
+          <li><a href="dolacz.html">Jak dołączyć</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Społeczność</h4>
+        <ul>
+          <li><a href="https://discord.gg/ZZDV2uquX" target="_blank" rel="noopener">Discord</a></li>
+          <li><a href="https://trackyserver.com/server/3524642" target="_blank" rel="noopener">Głosuj na serwer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nekrovia. Wszelkie prawa zastrzeżone.</span>
+      <span>Serwer nie jest powiązany z Bohemia Interactive.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
