@@ -596,6 +596,10 @@ section {
   color: var(--accent-light);
 }
 
+.step-content {
+  min-width: 0;
+}
+
 .step-content h3 {
   font-family: var(--font-head);
   font-size: 1.35rem;
@@ -850,6 +854,7 @@ section {
   max-height: calc(100vh - 120px);
   overflow-y: auto;
   box-shadow: var(--shadow-sm);
+  min-width: 0;
 }
 
 .mod-list-label {
@@ -899,10 +904,12 @@ section {
 
 .mod-detail {
   min-height: 380px;
+  min-width: 0;
 }
 
 .mod-panel {
   display: none;
+  min-width: 0;
 }
 
 .mod-panel.active {
@@ -985,6 +992,11 @@ section {
   background: var(--bg-panel-light);
   border: 1px solid var(--border);
   border-radius: 4px;
+  min-width: 0;
+}
+
+.mod-feature > div {
+  min-width: 0;
 }
 
 .mod-feature .ico {
